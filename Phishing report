@@ -1,0 +1,100 @@
+SAMPLE PHISING MAIL
+--------
+From: Support support@msupdate.net
+Subject: Microsoft account password change
+Time: 4:09 PM
+
+Microsoft account
+Your password changed
+
+Your password for the Microsoft account ethan@hooksecurity.co was changed.
+
+If this was you, then you can safely ignore this email.
+
+Security info used:
+Country/region: United States
+Platform: iOS
+Browser: Safari
+IP address: 77.196.86.10
+
+If this wasn't you, your account has been compromised. Please follow these steps:
+
+1 - Reset your password
+
+2 - Review your security info
+
+3 - Learn how to make your account more secure
+
+You can also [opt out] or change where you receive security notifications.
+
+Thanks,
+The Microsoft account team
+____________________________________________________________________________________________________________________________________________
+
+# Sender Address Check
+
+The email was sent from a domain that doesn’t belong to the official Microsoft domain. This suggests the sender is trying to impersonate a trusted company.
+
+**Possible spoofed email address**
+
+____________________________________________________________________________________________________________________________________________
+
+# Header Analysis
+
+Using an online email header analyzer, SPF and DKIM information wasn’t clearly shown or didn’t validate. This could mean the email is not verified and may be forged.
+
+**Suspicious header with missing or failed security checks**
+
+___________________________________________________________________________________________________________________________________________
+
+# Suspicious Links or Attachments
+
+The email contains links to reset a password and check account info. These kinds of links are often used in phishing emails to trick users into giving away personal info.
+
+**Likely malicious links**
+
+____________________________________________________________________________________________________________________________________________
+
+# Urgent Language
+
+The message uses urgency by warning that the account may have been compromised. This is a common trick in phishing to make the reader act quickly without thinking.
+
+**Threatening or urgent tone**
+
+____________________________________________________________________________________________________________________________________________
+
+# Mismatched URLs
+
+Not visible in the test, but it’s good practice to always hover over links to check if the real URL matches the visible one. In phishing emails, they often don’t.
+
+**Could be mismatched — not confirmed**
+
+_____________________________________________________________________________________________________________________________________________
+
+# Grammar or Spelling Issues
+
+The email didn’t have any major grammar or spelling problems, which is common in more convincing phishing emails nowadays.
+
+**No grammar errors, but still suspicious**
+
+____________________________________________________________________________________________________________________________________________
+
+# Summary of Phishing Signs
+
+| Checkpoint                        | Found | Notes                                  |
+|----------------------------------|-------|----------------------------------------|
+| Fake or spoofed sender           | ✅    | Domain looks unofficial                |
+| SPF/DKIM missing or failed       | ✅    | No clear signs of verification         |
+| Urgent or fear-based language    | ✅    | “Your account may be compromised”      |
+| Suspicious or hidden links       | ✅    | Typical phishing tactic                |
+| Spelling and grammar issues      | ❌    | None found in this case                |
+| Mismatched link destination      | ⚠️    | Couldn’t verify due to lack of hover  |
+
+_____________________________________________________________________________________________________________________________________________
+
+# Outcome
+
+This analysis helped me learn how phishing emails are designed to trick users by using fake sender addresses, urgent language, and unsafe links. I now better understand how to inspect email headers and recognize red flags.
+
+
+
